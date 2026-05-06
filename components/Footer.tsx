@@ -11,7 +11,7 @@ export default function Footer() {
                     whileInView={{ opacity: 1 }}
                     className="text-sm font-medium text-gray-600 dark:text-gray-400"
                 >
-                    © {new Date().getFullYear()} Abdul Razack. All rights reserved.
+                    © {new Date().getFullYear()} Abdul Azeez KA. All rights reserved.
                 </motion.p>
             </div>
         </footer>
