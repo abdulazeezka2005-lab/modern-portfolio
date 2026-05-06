@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 import { Mail, Linkedin, Github, Phone, Send } from "lucide-react";
 
 export default function Contact() {
-    const [message, setMessage] = useState("");
+    const [message, setMessage] = useState("Hi Abdul Azeez, I saw your portfolio and would like to connect with you!");
 
     const handleWhatsAppClick = () => {
         if (!message.trim()) return;
 
-        const phone = "6380832058";
+        const phone = "916380832058";
         const encodedMessage = encodeURIComponent(message);
         const url = `https://wa.me/${phone}?text=${encodedMessage}`;
 
@@ -48,7 +48,7 @@ export default function Contact() {
 
                     <div className="grid grid-cols-1 gap-3">
                         <a
-                            href="mailto:abdulazeezka.2005@gmail.com"
+                            href="mailto:abdulazeezka.2005@gmail.com?subject=Inquiry from Portfolio&body=Hi Abdul Azeez, I saw your portfolio and would like to connect regarding..."
                             className="flex items-center gap-3 p-3 min-w-0 rounded-2xl bg-gray-50 dark:bg-gray-800/50 border border-transparent transition-all hover:border-blue-500/30 hover:bg-white dark:hover:bg-gray-800 group"
                         >
                             <div className="p-2.5 rounded-xl bg-blue-50 text-blue-600 dark:bg-blue-900/30 dark:text-blue-400 group-hover:scale-110 transition-transform">
@@ -65,7 +65,7 @@ export default function Contact() {
                         </a>
 
                         <a
-                            href="https://www.linkedin.com/in/abdul-azeez279837292"
+                            href="https://www.linkedin.com/in/abdul-azeez-279837292?utm_source=share_via&utm_content=profile&utm_medium=member_android"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex items-center gap-3 p-3 rounded-2xl bg-gray-50 dark:bg-gray-800/50 border border-transparent transition-all hover:border-blue-500/30 hover:bg-white dark:hover:bg-gray-800 group"
@@ -103,7 +103,9 @@ export default function Contact() {
                         </a>
 
                         <a
-                            href="tel:+971544971861"
+                            href="https://wa.me/916380832058?text=Hi Abdul Azeez, I saw your portfolio and would like to connect!"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="flex items-center gap-3 p-3 rounded-2xl bg-gray-50 dark:bg-gray-800/50 border border-transparent transition-all hover:border-blue-500/30 hover:bg-white dark:hover:bg-gray-800 group"
                         >
                             <div className="p-2.5 rounded-xl bg-blue-50 text-blue-600 dark:bg-blue-900/30 dark:text-blue-400 group-hover:scale-110 transition-transform">
@@ -111,7 +113,7 @@ export default function Contact() {
                             </div>
                             <div>
                                 <p className="text-xs font-medium text-gray-500 dark:text-gray-400">
-                                    Call Me
+                                    Chat on WhatsApp
                                 </p>
                                 <p className="text-base font-bold text-gray-900 dark:text-white">
                                     +91 63808 32058
