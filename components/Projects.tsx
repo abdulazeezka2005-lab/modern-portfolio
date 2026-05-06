@@ -46,9 +46,16 @@ const projects: Project[] = [
     {
         title: "Namma Veetu Saapadu",
         description: "A digital presence for a traditional food outlet focusing on authentic homemade South Indian meals and hygienic food.",
-        image: "/images/food.png",
+        image: "/images/namma_veetu_saapadu.png",
         github: "https://github.com/abdulazeezka2005-lab/Namma-veetu-saapadu-abiramam-mess-",
         tech: ["HTML", "CSS", "UI/UX"],
+    },
+    {
+        title: "Modern Portfolio",
+        description: "A premium, responsive portfolio website featuring dynamic project carousels, dark mode, and GitHub integration.",
+        image: "/images/pfolio.png",
+        github: "https://github.com/abdulazeezka2005-lab/modern-portfolio",
+        tech: ["Next.js", "Tailwind CSS", "Framer Motion"],
     },
 ];
 
