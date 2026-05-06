@@ -27,7 +27,7 @@ const slides: Experience[] = [
             "Gained hands-on experience with modern development tools, version control, and agile practices.",
             "Debugged issues and improved application performance."
         ],
-        videoSrc: "/videos/numerique360.mov",
+        videoSrc: "/videos/aviation_erp.mov",
     },
     {
         key: "femtosoft",
@@ -40,7 +40,46 @@ const slides: Experience[] = [
             "Collaborated with team members to debug, test, and optimize website performance.",
             "Strengthened practical skills in web development and real-world software deployment."
         ],
-        videoSrc: "/videos/femtosoft.mov",
+        videoSrc: "/videos/blockchain.mov",
+    },
+    {
+        key: "c2b",
+        title: "C2B E-commerce – Platform Developer",
+        roleLine: "Platform Developer – Freelance / Project",
+        summary:
+            "Developed a modern Consumer-to-Business (C2B) e-commerce platform enabling direct service offerings to businesses.",
+        bullets: [
+            "Designed and implemented the core e-commerce architecture.",
+            "Integrated payment flows and service management systems.",
+            "Optimized front-end performance for a seamless user experience."
+        ],
+        videoSrc: "/videos/c2b.mp4",
+    },
+    {
+        key: "fitpath",
+        title: "Fitpath Planner – App Developer",
+        roleLine: "Lead App Developer – Personal Project",
+        summary:
+            "Created a fitness and wellbeing application from an athlete's perspective, focusing on activity tracking and nutrition.",
+        bullets: [
+            "Developed an intuitive activity tracking system.",
+            "Implemented nutrition guidance features and goal setting.",
+            "Ensured a responsive and engaging mobile-first design."
+        ],
+        videoSrc: "/videos/fitpathplanner.mp4",
+    },
+    {
+        key: "islamic",
+        title: "IQRA – Islamic Learning App Developer",
+        roleLine: "Full Stack Developer – IQRA",
+        summary:
+            "Built an interactive Arabic learning platform for smart and engaging education.",
+        bullets: [
+            "Integrated Firebase for real-time data management and authentication.",
+            "Developed interactive learning modules with React.",
+            "Created a user-friendly interface for kids and adults alike."
+        ],
+        videoSrc: "/videos/islamic.mp4",
     },
 ];
 
@@ -244,7 +283,7 @@ export default function WorkExperience() {
                                     </ul>
 
                                     <a
-                                        href="/Abdul_Razack_Frontend_Developer_React_Next_ERP_Dubai.pdf"
+                                        href="/Abdul_Azeez_KA_Resume.pdf"
                                         download
                                         className="inline-flex items-center gap-2 px-6 py-3 bg-gray-900 dark:bg-gray-800 text-white rounded-full text-sm font-medium transition-all hover:bg-black dark:hover:bg-gray-700 hover:scale-105 hover:shadow-lg"
                                     >
